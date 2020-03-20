@@ -59,7 +59,7 @@ class Catcher extends React.Component {
                     </Form.Field>
                     { encounteredPokemon && (
                         <div>
-                            <img src={encounteredPokemon.sprites.front_default}/>
+                            <img src={encounteredPokemon.sprites.front_default} alt={"pokemon"}/>
                         </div>
                     )}
                     <Button onClick={this.onCatchPokemon} primary disabled={!succesfulFind}>Catch!</Button>
