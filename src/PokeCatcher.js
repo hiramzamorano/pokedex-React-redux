@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid, Header, Container, Segment } from 'semantic-ui-react';
+import 'semantic-ui-css/semantic.min.css';
 import Catcher from './Catcher';
 import CaughtPokemons from './CaughtPokemons';
 import { Provider } from 'react-redux';
