@@ -6,13 +6,17 @@ import {
     Item
 } from 'semantic-ui-react';
 
-class CaughtPokemons extends React.Component {
+export class CaughtPokemons extends React.Component {
     render() {
         const { pokemons } = this.props;
 
         return (
             <React.Fragment>
                 <Header as="h2">Caught Pokemons</Header>
+                {
+                    !pokemons || pokemons.length == 0 &&
+                    <Header as="h3" style={{textAlign: 'center'}}>No pokemons captured yet</Header>
+                }
                 <Item.Group>
                     {
                         pokemons.map(pokemon => (
