@@ -1,24 +1,38 @@
 import React from 'react';
+import { connect } from 'react-redux';
+import { getCaughtPokemons } from './store';
 import {
     Header,
     Item
 } from 'semantic-ui-react';
 
-export default class CaughtPokemons extends React.Component {
+class CaughtPokemons extends React.Component {
     render() {
+        const { pokemons } = this.props;
+
         return (
             <React.Fragment>
                 <Header as="h2">Caught Pokemons</Header>
                 <Item.Group>
-                    <Item>
-                        <Item.Image size='small' src={`https://api.adorable.io/avatars/80/pikachu.png`} />
-                        <Item.Content>
-                            <Item.Header>Pikachu</Item.Header>
-                            <Item.Description>Electric type</Item.Description>
-                        </Item.Content>
-                    </Item>
+                    {
+                        pokemons.map(pokemon => (
+                            <Item key={pokemon.name}>
+                                <Item.Image size='tiny' src={pokemon.sprites.front_default} />
+                                <Item.Content>
+                                    <Item.Header>#{pokemon.id} {pokemon.name}</Item.Header>
+                                    <Item.Description>Height: {pokemon.height}, Weight: {pokemon.weight}</Item.Description>
+                                </Item.Content>
+                            </Item>
+                        ))
+                    }
                 </Item.Group>
             </React.Fragment>
         );
     }
 }
+
+const mapStateToProps = (state) => ({
+    pokemons: getCaughtPokemons(state)
+});
+
+export default connect(mapStateToProps)(CaughtPokemons);
