@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7942b20-c922-489f-a87a-770798444c6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/reducers/pokemons.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Catcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Catcher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CaughtPokemons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/CaughtPokemons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PokeCatcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokeCatcher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PokeCatcher.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokeCatcher.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/pokemons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/pokemons.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +71,8 @@
       <option name="presentableId" value="Default" />
       <updated>1584703515237</updated>
       <workItem from="1584703517135" duration="3038000" />
-      <workItem from="1584706571370" duration="5902000" />
+      <workItem from="1584706571370" duration="6317000" />
+      <workItem from="1584732082752" duration="216000" />
     </task>
     <servers />
   </component>

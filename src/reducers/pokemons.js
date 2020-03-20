@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
 
-function values(state = {}, action) {
+export function values(state = {}, action) {
     switch (action.type) {
         case 'FETCH_POKEMON_SUCCESS': {
             const { pokemon } = action;
@@ -22,7 +22,7 @@ function values(state = {}, action) {
     }
 }
 
-function encounteredPokemon(state = null, action) {
+export function encounteredPokemon(state = null, action) {
     switch (action.type) {
         case 'FETCH_POKEMON_SUCCESS': {
             const { pokemon } = action;
