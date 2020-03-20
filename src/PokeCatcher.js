@@ -5,9 +5,11 @@ import Catcher from './Catcher';
 import CaughtPokemons from './CaughtPokemons';
 import { Provider } from 'react-redux';
 import store from './store';
+import pokemons from "./reducers/pokemons";
 
 
 function PokeCatcher() {
+  console.log(pokemons);
   return (
       <Provider store={store}>
         <Grid>

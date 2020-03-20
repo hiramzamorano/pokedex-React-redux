@@ -20,6 +20,7 @@ class CaughtPokemons extends React.Component {
                                 <Item.Image size='tiny' src={pokemon.sprites.front_default} />
                                 <Item.Content>
                                     <Item.Header>#{pokemon.id} {pokemon.name}</Item.Header>
+                                    <Item.Description>Type: {pokemon.types[0].type.name}</Item.Description>
                                     <Item.Description>Height: {pokemon.height}, Weight: {pokemon.weight}</Item.Description>
                                 </Item.Content>
                             </Item>

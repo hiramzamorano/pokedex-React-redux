@@ -5,6 +5,7 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
@@ -15,15 +16,15 @@ code {
 .app-container {
   height: 100%;
   min-height: 100vh;
-  background-color: #f7f7f7;
+  background: url("https://thumbs.dreamstime.com/b/pokemon-silhouette-background-vector-cartoon-symbol-art-icon-play-go-sign-concept-ball-pokeball-shape-pokemon-silhouette-142907703.jpg");
 }
 
 .app-container .poke-header {
   text-align: center;
   margin-top: 0;
-  padding: 10px 0;
-  background-color: #f1f1f1;
-  color: #ffcb05;
+  padding: 15px 0 !important;
+  color: #fffc16 !important;
   -webkit-text-stroke-width: .5px;
   -webkit-text-stroke-color: #2a75bb;
+  background: #f1f1f1 url("https://66.media.tumblr.com/a3b6c9d75854fff52fd89a3f1eb33fe4/tumblr_oaulnhe3FB1v11ublo5_500.png");
 }
